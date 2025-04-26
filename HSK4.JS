@@ -1,5 +1,4 @@
 // 获取语音合成接口
-if ('speechSynthesis' in window) {
 const synth = window.speechSynthesis;
 
 function speakText(text) {
@@ -4256,7 +4255,4 @@ function searchWord() {
 
 // 加载单词列表
 loadWords();
-} else {
-    console.log('Sorry, your browser does not support Web Speech API.');
-    // 提示用户或提供替代方案
-}
+
