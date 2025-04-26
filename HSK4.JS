@@ -4216,8 +4216,6 @@ const words = [
     }
 
 
-
-        // 更多HSK1词汇...
 ];
 
 function loadWords() {
