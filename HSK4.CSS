@@ -118,4 +118,6 @@ button {
     padding: 5px 10px;
     cursor: pointer;
 }
-@media (min-width:600px)
+@media(min-width:600px){
+display：flex;
+align-items: flex-start;}
